@@ -1,5 +1,8 @@
 # system-operation
-Troubleshooting Methods in System Operation
+
+- Troubleshooting Methods in System Operation
+
+---
 
 ### `/tmp` directory size increase issue
 
@@ -19,3 +22,5 @@ sudo find /tmp -type f -atime +7 -delete
 # clean empty directories:
 sudo find /tmp -type d -empty -delete
 ```
+
+---
