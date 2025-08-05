@@ -24,3 +24,11 @@ sudo find /tmp -type d -empty -delete
 ```
 
 ---
+
+- `CPU` to check number of allocated cores
+```
+lscpu | grep "^CPU(s):"
+
+# expected output
+CPU(s):                               32
+```
